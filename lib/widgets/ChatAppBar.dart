@@ -65,9 +65,10 @@ class ChatAppBar extends StatelessWidget implements PreferredSizeWidget {
                                   Expanded(
                                       flex: 6,
                                       child: Container(
+                                         padding: EdgeInsets.only(top: 10, bottom: 10),
                                           child: Column(
                                         crossAxisAlignment:
-                                            CrossAxisAlignment.start,
+                                            CrossAxisAlignment.center,
                                         mainAxisAlignment:
                                             MainAxisAlignment.center,
                                         mainAxisSize: MainAxisSize.min,
