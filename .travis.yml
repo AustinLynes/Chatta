@@ -7,7 +7,7 @@ addons:
       - lib32stdc++6
 
 install:
-  - git clone https://github.com/AustinLynes/Chatta.git -b stable --depth 1
+  - git clone https://github.com/flutter/flutter.git -b stable --depth 1
   - export PATH=./flutter/bin:$PATH
   - flutter doctor
   - flutter --version
