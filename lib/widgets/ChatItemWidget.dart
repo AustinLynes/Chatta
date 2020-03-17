@@ -3,8 +3,8 @@ import "package:flutter/material.dart";
 import 'package:intl/intl.dart';
 
 class ChatItemWidget extends StatelessWidget {
-  var index;
-  ChatItemWidget(this.index);
+  final int index;
+  const ChatItemWidget(this.index);
   @override
   Widget build(BuildContext context) {
     // for now using even odd to determine if the message is sent or recieved...

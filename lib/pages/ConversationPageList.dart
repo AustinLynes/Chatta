@@ -1,10 +1,12 @@
 import 'package:chatta/pages/ConversationPage.dart';
 import 'package:flutter/material.dart';
 
-class ConversationPageList extends StatefulWidget {
+import 'ConversationPage.dart';
 
+class ConversationPageList extends StatefulWidget {
   @override
   _ConversationPageListState createState() => _ConversationPageListState();
+  const ConversationPageList();
 }
 
 class _ConversationPageListState extends State<ConversationPageList> {
@@ -14,7 +16,7 @@ class _ConversationPageListState extends State<ConversationPageList> {
       children: <Widget>[
         ConversationPage(),
         ConversationPage(),
-        ConversationPage(),
+        ConversationPage()
       ],
     );
   }

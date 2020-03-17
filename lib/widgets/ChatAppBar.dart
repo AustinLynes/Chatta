@@ -16,6 +16,8 @@ import 'package:flutter/material.dart';
 class ChatAppBar extends StatelessWidget implements PreferredSizeWidget {
   final double height = 150;
 
+  const ChatAppBar();
+  
   @override
   Widget build(BuildContext context) {
     // text style for the names

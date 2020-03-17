@@ -5,13 +5,13 @@
 // gestures. You can also use WidgetTester to find child widgets in the widget
 // tree, read text, and verify that the values of widget properties are correct.
 
+import 'package:chatta/pages/ConversationPageList.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:chatta/main.dart';
 
 void main() {
-  testWidgets('Checking if hello world shows up', (WidgetTester tester) async {
-    // Build our app and trigger a frame.
+  testWidgets('Main UI Test', (WidgetTester tester) async {
     await tester.pumpWidget(Chatta());
-    expect(find.text('Hello World!'), findsOneWidget);
+    expect(find.byType(ConversationPageList), findsOneWidget);
   });
 }
