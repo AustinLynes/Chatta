@@ -1,6 +1,6 @@
 language: dart
 dist: bionic
-os: windows
+# os: windows
 addons:
   apt:
     packages:
