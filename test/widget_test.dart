@@ -11,7 +11,7 @@ import 'package:chatta/main.dart';
 void main() {
   testWidgets('Checking if hello world shows up', (WidgetTester tester) async {
     // Build our app and trigger a frame.
-    await tester.pumpWidget(MyApp());
+    await tester.pumpWidget(Chatta());
     expect(find.text('Hello World!'), findsOneWidget);
   });
 }
